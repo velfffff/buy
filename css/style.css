@@ -1,0 +1,53 @@
+body{
+   background: url("../images/1626946950_2-p-kartinki-krasnogo-tsveta-fon-2.jpg")
+}
+
+.carousel-inner {
+    height: 300px;
+  }
+  
+  .carousel-inner img {
+    height: 100%;
+  }
+  
+  @media (min-width: 1100px) {
+    .carousel-inner img {
+      width: 100%;
+    }
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-100%);
+    text-shadow: 1px 1px 10px #000;
+  }
+  
+  @media (max-width: 450px) {
+    .carousel-caption .display-2 {
+      font-size: 3em;
+    }
+  }
+  .social a {
+    font-size: 4em;
+    padding: 20px;
+  }
+  
+  .fa-Discord {color: #3b5998}
+  .fa-instagram {color: #517fa4}
+  .fa-twitter {color: #00aced}
+  .fa-youtube {color: #bb0000}
+  .fa-google-plus-g {color: #dd4b39}
+  
+  .fa-Discord:hover, .fa-twitter:hover,
+  .fa-instagram:hover, .fa-youtube:hover,
+  .fa-google-plus-g:hover {
+    color: #ccc;
+  }
+  
+  footer {
+    background-color: #3f3f3f;
+    padding-top: 50px;
+    border-top: 4px solid silver;
+    color: white;
+  }
